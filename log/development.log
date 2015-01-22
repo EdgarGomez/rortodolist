@@ -1,0 +1,81 @@
+
+
+Started GET "/pages/home" for ::1 at 2015-01-22 22:21:16 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 914ms (Views: 894.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-8c4e6828020641551e75881ff96bd52d.js?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/assets/jquery_ujs-dea3df1e9bbead522c4dd93cb57a1e87.js?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/assets/application-8c18e5d6e8ae399311ccba2b42b33209.css?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/assets/turbolinks-dec8433f33530f21d5f9404e0d893fa3.js?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/assets/pages-14306cbf8971492c8d2c72c69ed66560.js?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/assets/pages-a667019d38147c1c4b1e0a3afab2f583.css?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/assets/application-9f4634837b0177d971b3a3737231ac43.js?body=1" for ::1 at 2015-01-22 22:21:17 +0100
+
+
+Started GET "/pages/home" for ::1 at 2015-01-22 22:21:41 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-a667019d38147c1c4b1e0a3afab2f583.css?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/assets/turbolinks-dec8433f33530f21d5f9404e0d893fa3.js?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/assets/application-8c18e5d6e8ae399311ccba2b42b33209.css?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/assets/pages-14306cbf8971492c8d2c72c69ed66560.js?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/assets/jquery_ujs-dea3df1e9bbead522c4dd93cb57a1e87.js?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/assets/jquery-8c4e6828020641551e75881ff96bd52d.js?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/assets/application-9f4634837b0177d971b3a3737231ac43.js?body=1" for ::1 at 2015-01-22 22:21:41 +0100
+
+
+Started GET "/" for ::1 at 2015-01-22 22:22:41 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-a667019d38147c1c4b1e0a3afab2f583.css?body=1" for ::1 at 2015-01-22 22:22:41 +0100
+
+
+Started GET "/assets/application-8c18e5d6e8ae399311ccba2b42b33209.css?body=1" for ::1 at 2015-01-22 22:22:41 +0100
+
+
+Started GET "/assets/jquery-8c4e6828020641551e75881ff96bd52d.js?body=1" for ::1 at 2015-01-22 22:22:41 +0100
+
+
+Started GET "/assets/pages-14306cbf8971492c8d2c72c69ed66560.js?body=1" for ::1 at 2015-01-22 22:22:41 +0100
+
+
+Started GET "/assets/turbolinks-dec8433f33530f21d5f9404e0d893fa3.js?body=1" for ::1 at 2015-01-22 22:22:41 +0100
+
+
+Started GET "/assets/jquery_ujs-dea3df1e9bbead522c4dd93cb57a1e87.js?body=1" for ::1 at 2015-01-22 22:22:41 +0100
+
+
+Started GET "/assets/application-9f4634837b0177d971b3a3737231ac43.js?body=1" for ::1 at 2015-01-22 22:22:41 +0100
