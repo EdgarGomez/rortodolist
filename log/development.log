@@ -1340,3 +1340,160 @@ Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for 
 
 
 Started GET "/assets/application-b1e85ffdbba43e7d25023835eff605d5.js?body=1" for ::1 at 2015-01-23 17:26:39 +0100
+
+
+Started GET "/" for ::1 at 2015-01-23 17:30:59 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Applications/AMPPS/www/stukdo/app/assets/stylesheets/application.css:18)):
+    2: <html>
+    3: <head>
+    4:   <title>Stukdo</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1239360891127206189_70223262257840'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (74.3ms)
+
+
+Started GET "/" for ::1 at 2015-01-23 17:31:34 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Applications/AMPPS/www/stukdo/app/assets/stylesheets/application.css:18)):
+    2: <html>
+    3: <head>
+    4:   <title>Stukdo</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1239360891127206189_70223262257840'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (54.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (79.5ms)
+
+
+Started GET "/" for ::1 at 2015-01-23 17:32:45 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'font-awesome'
+  (in /Applications/AMPPS/www/stukdo/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stukdo</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1239360891127206189_70223262257840'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (57.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (86.3ms)
+
+
+Started GET "/" for ::1 at 2015-01-23 17:33:00 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 579ms (Views: 557.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome-f1f64beee85cc8d3badf3f4a4c68cc61.css?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-3d4ac324e8c8a16c343c471da829ffcc.css?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-c0e728c92bc26bc30bac33c4d3f26420.css?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/application-0385d75b19500cb6ad523ad4a1ecfb5f.css?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides-caaef7eff4329c524ea65567896bba3b.css?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap-bfd36ba45e965dc20fa69e1153274989.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/bootstrap-91416daf9f05a6e9ca13ef54aa8dcb39.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/application-b1e85ffdbba43e7d25023835eff605d5.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-23 17:33:01 +0100
+
+
+Started GET "/assets/fontawesome-webfont-bdd5fe963cf9a6bcf9c449166e2e5a57.woff2?v=4.3.0" for ::1 at 2015-01-23 17:33:01 +0100
