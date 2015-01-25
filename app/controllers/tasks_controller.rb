@@ -27,7 +27,7 @@ class TasksController < ApplicationController
   def create
     @task = current_user.tasks.new(task_params)
     @task.save
-    respond_with(@task)
+    redirect_to tasks_path
   end
 
   def update
