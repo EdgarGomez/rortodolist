@@ -9427,3 +9427,25 @@ Started GET "/assets/tasks-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 a
 
 
 Started GET "/assets/application-702e297a17d6f7a1dff8c43dc70759e6.js?body=1" for ::1 at 2015-01-25 19:46:51 +0100
+
+
+Started GET "/users/edit" for ::1 at 2015-01-25 19:53:23 +0100
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (73.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 637ms (Views: 609.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/tasks" for ::1 at 2015-01-25 19:53:27 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (1.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ? AND "tasks"."state" = ?[0m  [["user_id", 1], ["state", "to_do"]]
+  Rendered tasks/_task.html.erb (1.2ms)
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ? AND "tasks"."state" = ?  [["user_id", 1], ["state", "doing"]]
+  Rendered tasks/_task.html.erb (0.6ms)
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ? AND "tasks"."state" = ?[0m  [["user_id", 1], ["state", "done"]]
+  Rendered tasks/_task.html.erb (0.7ms)
+  Rendered tasks/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 300ms (Views: 294.9ms | ActiveRecord: 1.4ms)
